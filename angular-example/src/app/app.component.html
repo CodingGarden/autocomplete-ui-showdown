@@ -1,0 +1,18 @@
+<section class="container">
+  <form>
+    <label>
+      Tree
+      <!-- <input (input)="getSuggestions($event)" name="tree" /> -->
+      <input #tree name="tree" />
+    </label>
+  </form>
+  <progress *ngIf="loading"></progress>
+  <article *ngIf="error" style="background: #e53935; color: white">
+    {{error}}
+  </article>
+  <p *ngIf="!debouncedValue">Type to see suggestions.</p>
+  <p *ngIf="!error && debouncedValue && suggestions.length === 0 && !loading">No suggestions to display.</p>
+  <article *ngFor="let suggestion of suggestions;">
+    {{ suggestion }}
+  </article>
+</section>

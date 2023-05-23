@@ -19,9 +19,10 @@
 * [x] Svelte
 * [x] Vue
 * [x] SolidJS
+* [x] Angular
 * [ ] Qwik
-* [ ] Angular
 * [ ] Vanilla JS
+* [ ] jQuery
 * Maybe if we have time:
   * [ ] React + Preact Signals...
     * [ ] Refactor a React app??

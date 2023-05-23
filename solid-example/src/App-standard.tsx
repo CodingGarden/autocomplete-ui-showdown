@@ -38,13 +38,11 @@ const App: Component = () => {
     setLoading(false);
     if (!debouncedValue()) return;
     setLoading(true);
-    console.log("Calling API with:", debouncedValue());
     try {
       const results = await getAutoCompleteResults(
         debouncedValue(),
         abortController.signal
       );
-      console.log("Got API results:", results);
       setSuggestions(results);
       setLoading(false);
     } catch (e) {
