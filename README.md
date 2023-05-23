@@ -13,23 +13,18 @@
 * Debounce the input filter value
 * Abort / cancel requests when filter changes
 
-## Extra
-* Arrow key navigation
-* Cache results in memory
-* UI Tests
-
 ## UI Frameworks
 
-* [ ] React
-* [ ] Svelte
-* [ ] Vue
+* [x] React
+* [x] Svelte
+* [x] Vue
+* [x] SolidJS
+* [ ] Qwik
+* [ ] Angular
+* [ ] Vanilla JS
 * Maybe if we have time:
   * [ ] React + Preact Signals...
-  * [ ] SolidJS
     * [ ] Refactor a React app??
-  * [ ] Qwik
-  * [ ] Angular
-
 
 ## Stretch
 
