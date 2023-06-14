@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+      .hide {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="app" class="container">
+      <form>
+        <label for="filter">
+          Tree
+          <input id="filter" name="filter">
+        </label>
+      </form>
+      <article id="error" style="background: #e53935; color: white"></article>
+      <section>
+        <progress id="progress"></progress>
+        <p id="suggestionMessage">Type to see suggestions.</p>
+        <div id="results">
+
+        </div>
+        <p id="noSuggestionsMessage">No suggestions to display.</p>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

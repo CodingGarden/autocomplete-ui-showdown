@@ -20,9 +20,10 @@
 * [x] Vue
 * [x] SolidJS
 * [x] Angular
-* [ ] Qwik
-* [ ] Vanilla JS
+* [x] Preact + Signals
+* [x] Vanilla JS/TS
 * [ ] jQuery
+* [ ] Qwik... could not figure out client side only build
 * Maybe if we have time:
   * [ ] React + Preact Signals...
     * [ ] Refactor a React app??
